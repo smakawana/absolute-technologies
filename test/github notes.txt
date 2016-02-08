@@ -7,3 +7,32 @@ step 3 : git add . add to all files in your local matchine
 step 4 ; git commit -m "commit your changes to stage"
 step 5 : git push remote branch name
 
+Commands to use 
+===============================================
+git status    						: to use check status.
+git add              				: to add file which are modified or new added.
+git commit -m 						: to use commit your changes
+git push origin master				: to push your change on repo
+git checkout -b branch name 		: to create a new branch and switch on it
+git checkout master 				: to switch other branch to master branch
+git fetch -p 						: fetch data from branch
+git pull origin branch name			: to add in local form repo branch
+git branch branch name				: to add branch in local
+
+Git add branch and push on repo steps
+===============================================
+git branch branch name(EX: dev)		: create a new branch (ex: dev).
+git add .							: to add new branch (ex: dev).
+git commit -m "add new branch"		: to commit new branch (commit branch dev).
+git push origin branch name 		: to push branch on repo (dev branch push on repo)
+
+
+git fetch data form other branch
+===============================================
+git fetch -p 						: fetch data from other branches
+git pull origin branch name(ex: dev): fetch data from dev branch
+
+
+
+
+
