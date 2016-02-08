@@ -41,5 +41,3 @@ git checkout master					: first switch branch to master (i want to merge dev bra
 									  so i need to switch on master branch)
 git merge dev						: to merge dev branch in to master branch
 git push origin master				: dev branch merge in master need to push master branch on repo.
-
-
