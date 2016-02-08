@@ -1,3 +1,6 @@
+https://git-scm.com/book/en/v2
+
+
 This is form starting note for git
 ==============================================
 
@@ -27,12 +30,16 @@ git commit -m "add new branch"		: to commit new branch (commit branch dev).
 git push origin branch name 		: to push branch on repo (dev branch push on repo)
 
 
-git fetch data form other branch
+Git fetch data form other branch
 ===============================================
 git fetch -p 						: fetch data from other branches
 git pull origin branch name(ex: dev): fetch data from dev branch
 
-
-
+Git merge two branch
+===============================================
+git checkout master					: first switch branch to master (i want to merge dev branch into master 
+									  so i need to switch on master branch)
+git merge dev						: to merge dev branch in to master branch
+git push origin master				: dev branch merge in master need to push master branch on repo.
 
 
