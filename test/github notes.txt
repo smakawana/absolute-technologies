@@ -1,0 +1,9 @@
+This is form starting note for git
+==============================================
+
+step 1 : git clone to add repo in your local.
+step 2 : git init to initialization dir
+step 3 : git add . add to all files in your local matchine
+step 4 ; git commit -m "commit your changes to stage"
+step 5 : git push remote branch name
+
