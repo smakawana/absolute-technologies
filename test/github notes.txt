@@ -1,6 +1,3 @@
-https://git-scm.com/book/en/v2
-
-
 This is form starting note for git
 ==============================================
 
@@ -21,6 +18,7 @@ git checkout master 				: to switch other branch to master branch
 git fetch -p 						: fetch data from branch
 git pull origin branch name			: to add in local form repo branch
 git branch branch name				: to add branch in local
+git reflog							: to hsow refrence log commit and comment 
 
 Git add branch and push on repo steps
 ===============================================
@@ -41,3 +39,5 @@ git checkout master					: first switch branch to master (i want to merge dev bra
 									  so i need to switch on master branch)
 git merge dev						: to merge dev branch in to master branch
 git push origin master				: dev branch merge in master need to push master branch on repo.
+
+
